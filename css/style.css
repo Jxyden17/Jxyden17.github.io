@@ -2,19 +2,20 @@
     border: 0;
     margin: 0;
     padding: 0;
-    background-color: white;
+
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
 }
 
 img {
     width: 100px;
 }
 
-/*--------------------------------start of main/nav section--------------------------------*/
+
+
+/*--------------------------------start of nav section--------------------------------*/
 
 #mainmenu {
     background-color: black;
@@ -23,6 +24,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 #mainmenu a.logo {
@@ -36,21 +38,27 @@ img {
     margin: 0;
     padding: 0;
     background-color: black;
+    text-decoration: none;
 
 }
 
 #mainmenu ul li {
     margin-left: 2rem;
+    text-decoration: none;
+
 }
 
 #mainmenu ul li a {
     text-decoration: none;
+    list-style: none;
+    border-bottom: none;
     color: white;
     background-color: black;
 }
 
 #mainmenu ul li a:hover {
     color: gray;
+    text-decoration: none;
 }
 
 #mainmenu img {
@@ -60,7 +68,13 @@ img {
     background-color: black;
 }
 
-.main-content {
+
+/*--------------------------------end of nav section--------------------------------*/
+
+
+/*--------------------------------start of main section--------------------------------*/
+
+.main-container {
     display: flex;
 
 }
@@ -115,7 +129,7 @@ img {
     text-align: center;
 }
 
-.cardlinks {
+.cardlinks-container {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -123,7 +137,7 @@ img {
     padding: 20px;
 }
 
-.cardlinks>.cardlinks-header {
+.cardlinks-container>.cardlinks-header {
     text-align: center;
 }
 
@@ -132,7 +146,7 @@ img {
     border-radius: 8px;
     overflow: hidden;
     width: 300px;
-    background-color: #fff;
+    background-color: white;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -140,7 +154,7 @@ img {
 }
 
 .card-header {
-    background-color: #f4f4f4;
+    background-color: white;
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #ddd;
@@ -180,7 +194,7 @@ img {
 .card-footer {
     padding: 10px;
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: white;
     border-top: 1px solid #ddd;
     margin-top: auto;
     display: flex;
@@ -289,11 +303,19 @@ img {
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
-    background-color: lightgray;
-    padding: 20px;
+    justify-content: center;
+    background-color: black;
+    padding: 20px 0;
     text-align: left;
-    padding-left: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 20px;
+    background-color: black;
 }
 
 .information-text {
@@ -301,18 +323,24 @@ img {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-color: black;
+}
+
+.information-text em {
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
 
 .information-text span {
     margin-bottom: 5px;
+    background-color: black;
+    color: white;
 }
 
 .footer-container aside {
     flex-grow: 0;
     padding: 10px;
-    text-align: center;
-}
-
-.footer-container p {
     text-align: center;
 }
