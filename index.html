@@ -14,47 +14,83 @@
 </head>
 
 <body>
-  <nav id="mainmenu">
-    <img src="img/GarageHoofddorpLogo.png" alt="logo navbar" title="logo navbar">
-    <ul>
-      <li>
-        <a class="micha" href="#">
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Services
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          Test
-        </a>
-      </li>
-      <li>
-        <a href="contact.html">
-          Contact
-        </a>
-      </li>
-    </ul>
-  </nav>
+  <section id="nav-desktop">
+    <nav id="mainmenu">
+      <img src="img/Logo500x180.png" alt="logo navbar" title="logo navbar">
+      <ul>
+        <li>
+          <a class="micha" href="#">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            APK
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Onderhoud
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Airco
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Banden
+          </a>
+        </li>
+        <li>
+          <a href="contact.html">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <section id="nav-mobile">
+    <img src="img/Logo500x180.png" alt="logo navbar" title="logo navbar">
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+      <!--De 3 hamubugers?-->
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <!--This is the menu what will be displayed when clicking on it-->
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">APK</a></li>
+        <li><a href="#">Onderhoud</a></li>
+        <li><a href="#">Airco</a></li>
+        <li><a href="#">Banden</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
   <section class="main-container">
-    <article class="text-content">
-      <header>
-        <h1>Welkom bij garage hoofddorp</h1>
-      </header>
-      <p>
-        Auto garage hoofddorp, de autogarage van hoofddorp en omstreken, u kunt bij ons terecht voor al uw zaken omtrent
-        auto’s.
-        Is het voor uw jaarlijkse apk keuring, uw servicebeurt? Of zijn uw banden toe aan vervanging, de ervaren
-        monteurs van garage hoofddorp bieden u een zorgeloze service!
-        Kortom verwacht het beste bij Garage Hoofddorp: deskundig onderhoud/reparatie en uitzonderlijke klantenservice
-      </p>
-    </article>
-    <figure class="image-content">
-      <img src="./img/bmw-stock.png" alt="Example Image">
-    </figure>
+    <section class="inner-container">
+      <article class="text-content">
+        <header>
+          <h1>Welkom bij Garage Hoofddorp</h1>
+        </header>
+        <p>
+          Auto garage hoofddorp, de autogarage van hoofddorp en omstreken, u kunt bij ons terecht voor al uw zaken
+          omtrent
+          auto’s.
+          Is het voor uw jaarlijkse apk keuring, uw servicebeurt? Of zijn uw banden toe aan vervanging, de ervaren
+          monteurs van garage hoofddorp bieden u een zorgeloze service!
+          Kortom verwacht het beste bij Garage Hoofddorp: deskundig onderhoud/reparatie en uitzonderlijke klantenservice
+        </p>
+      </article>
+      <figure class="image-content">
+        <img src="./img/bmw-stock.png" alt="Example Image">
+      </figure>
+    </section>
   </section>
   <section class="divider-line"></section>
   <header class="cardlinks-header">
@@ -62,11 +98,8 @@
   </header>
   <section class="cardlinks-container">
     <section class="card">
-      <header class="card-header">
-        <h2>APK</h2>
-      </header>
       <figure class="card-image">
-        <img src="img/apk.png" alt="APK icon" title="Apk icon">
+        <img src="img/apk-oranje.png" alt="APK icon" title="Apk icon">
       </figure>
       <article class="card-body">
         <p>
@@ -74,51 +107,25 @@
         </p>
       </article>
       <footer class="card-footer">
-        <a href="#" class="card-button">Lees Meer</a>
+        <a href="#" class="card-button">APK</a>
       </footer>
     </section>
     <section class="card">
-      <header class="card-header">
-        <h2>Onderhoud/Reparatie</h2>
-      </header>
       <figure class="card-image">
         <img src="img/car.png" alt="CAR icon" title="car icon">
       </figure>
 
       <article class="card-body">
         <p>
-          Wilt u meer weten over wat voor onderhoud/reparatie wij doen en/of meer informatie willen hebben.
+          Wilt u meer weten over wat voor onderhoud/reparatie wij doen en meer informatie willen hebben.
         </p>
       </article>
 
       <footer class="card-footer">
-        <a href="#" class="card-button">Lees Meer</a>
+        <a href="#" class="card-button">Onderhoud</a>
       </footer>
     </section>
     <section class="card">
-      <header class="card-header">
-        <h2>Services</h2>
-      </header>
-
-      <figure class="card-image">
-        <img src="img/services.png" alt="Services icon" title="services icon">
-      </figure>
-
-      <article class="card-body">
-        <p>
-          Wilt u meer weten over de verschillende services die wij bieden?
-        </p>
-      </article>
-
-      <footer class="card-footer">
-        <a href="#" class="card-button">Lees Meer</a>
-      </footer>
-    </section>
-    <section class="card">
-      <header class="card-header">
-        <h2>Contact</h2>
-      </header>
-
       <figure class="card-image">
         <img src="img/contact.png" alt="Contact icon" title="contact icon">
       </figure>
@@ -130,7 +137,7 @@
       </article>
 
       <footer class="card-footer">
-        <a href="#" class="card-button">Lees Meer</a>
+        <a href="#" class="card-button">Contact</a>
       </footer>
     </section>
   </section>
@@ -141,7 +148,7 @@
   <section class="reviews-container">
     <article class="review-card">
       <header class="review-rating">
-        <span>⭐⭐⭐⭐☆</span>
+        <span>☆☆☆☆☆</span>
       </header>
       <h3>Fantastisch werk!</h3>
       <p>dit is een review dis wat staat hier ook alweer :DD ke mamama p[ een bafkietss aldaldaldladlaldladllda</p>
@@ -156,7 +163,7 @@
 
     <article class="review-card">
       <header class="review-rating">
-        <span>⭐⭐⭐⭐☆</span>
+        <span>☆☆☆☆☆</span>
       </header>
       <h3>Beste Auto garage in hoofddorp!!!</h3>
       <p>
@@ -173,7 +180,7 @@
 
     <article class="review-card">
       <header class="review-rating">
-        <span>⭐⭐⭐⭐☆</span>
+        <span>☆☆☆☆☆</span>
       </header>
       <h3>Betrouwbaar bedrijf</h3>
       <p>Ik ben vorige week naar deze winkel geweest. Hun service en technologie zijn erg goed en ten zeerste
@@ -195,6 +202,7 @@
         <span>1111CP, nooitgedacht</span>
         <span>06 11 11 11 11</span>
         <span>garagehoofddorp@gmail.com</span>
+        <span class="copyright">&copy; 2024 Jxyden17 Web development</span>
       </article>
       <aside>
         <iframe
