@@ -412,6 +412,38 @@ span {
         padding: 10px;
         text-align: center;
     }
+
+    /*--------------------------------start of onderhoud section--------------------------------*/
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .header-inner-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        padding: 0 20px;
+        background-color: #1e1e1e;
+    }
+
+    .header-inner-container h1 {
+        color: #d98c0f;
+        font-size: 36px;
+    }
+
+    .header-inner-container h3 {
+        color: white;
+        font-size: 24px;
+    }
+
+
+
+    /*--------------------------------end of onderhoud section--------------------------------*/
 }
 
 @media (max-width: 768px) {
