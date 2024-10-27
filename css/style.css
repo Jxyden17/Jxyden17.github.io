@@ -13,7 +13,7 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 6.25rem;
 }
 
 h1,
@@ -33,17 +33,17 @@ span {
 }
 
 .divider-line {
-    height: 4px;
+    height: 0.25rem;
     background-color: #1e1e1e;
     width: 80%;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 .divider-line-mobile {
-    height: 3px;
+    height: 0.1875rem;
     background-color: #1e1e1e;
     width: 100%;
-    margin: 20px auto;
+    margin: 1.25rem auto;
 }
 
 
@@ -63,14 +63,18 @@ span {
         display: none;
     }
 
+    #hidden-container {
+        display: none;
+    }
+
     #mainmenu {
         background-color: #1e1e1e;
         color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
-        height: 50px;
+        padding: 0.625rem;
+        height: 3.125rem;
         flex-wrap: wrap;
     }
 
@@ -108,10 +112,16 @@ span {
         text-decoration: none;
     }
 
+    #mainmenu ul li a:visited {
+        color: white;
+    }
+
+
+
     #mainmenu img {
-        padding-left: 50px;
-        width: 180px;
-        height: 50px;
+        padding-left: 3.125rem;
+        width: 11.25rem;
+        height: 3.125rem;
         background-color: #1e1e1e;
     }
 
@@ -145,14 +155,14 @@ span {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 20px 0;
+        margin: 1.25rem 0;
 
     }
 
     .text-content h1 {
         color: #d98c0f;
-        max-width: 600px;
-        font-size: 56px;
+        max-width: 37.5rem;
+        font-size: 3.5rem;
         line-height: 1.2;
         white-space: nowrap;
     }
@@ -160,13 +170,13 @@ span {
     .text-content p {
         color: white;
         width: 100%;
-        max-width: 600px;
-        font-size: 20px;
+        max-width: 37.5rem;
+        font-size: 1.25rem;
         line-height: 1.5;
     }
 
     .image-content {
-        margin: 20px 0;
+        margin: 1.25rem 0;
         display: flex;
         justify-content: right;
         align-items: end;
@@ -176,8 +186,8 @@ span {
         width: 80%;
         height: auto;
         object-fit: cover;
-        max-width: 1000px;
-        max-height: 500px;
+        max-width: 62.5rem;
+        max-height: 31.25rem;
     }
 
 
@@ -190,15 +200,15 @@ span {
 
     .cardlinks-header {
         text-align: center;
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .cardlinks-container {
         display: flex;
-        gap: 20px;
+        gap: 1.25rem;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .cardlinks-container>.cardlinks-header {
@@ -206,13 +216,15 @@ span {
     }
 
     .card {
-        border: 3px double black;
-        border-radius: 8px;
+        border-width: 0.1875rem;
+        border-style: double;
+        border-color: black;
+        border-radius: 0.5rem;
         overflow: hidden;
-        width: 400px;
-        height: 400px;
+        width: 25rem;
+        height: 25rem;
         background-color: #1e1e1e;
-        margin: 20px;
+        margin: 1.25rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -221,9 +233,9 @@ span {
     .card-header {
 
         background-color: #1e1e1e;
-        padding: 10px;
+        padding: 0.625rem;
         text-align: center;
-        border-top: 1px solid #1e1e1e;
+        border-top: 0.0625rem solid #1e1e1e;
     }
 
     .card-header h2 {
@@ -233,36 +245,36 @@ span {
 
     .card-image {
         text-align: center;
-        padding: 15px 0;
+        padding: 0.9375rem 0;
     }
 
     .card-image img {
-        width: 25%;
+        width: 6.25rem;
         height: auto;
     }
 
     .card-image figcaption {
         text-align: center;
-        padding: 8px;
+        padding: 0.5rem;
         font-size: 0.85em;
         color: #666;
     }
 
     .card-body {
-        padding: 15px;
+        padding: 0.9375rem;
         font-size: 1em;
         color: white;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.5;
         text-align: center;
         margin-bottom: auto;
     }
 
     .card-footer {
-        padding: 10px;
+        padding: 0.625rem;
         text-align: center;
         background-color: #1e1e1e;
-        border-top: 1px solid #1e1e1e;
+        border-top: 0.0625rem solid #1e1e1e;
         margin-top: auto;
         display: flex;
         justify-content: center;
@@ -272,9 +284,9 @@ span {
         background-color: #d98c0f;
         color: white;
         width: 65%;
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
         text-decoration: none;
-        border-radius: 4px;
+        border-radius: 0.25rem;
         font-size: 1em;
         display: inline-block;
     }
@@ -290,43 +302,43 @@ span {
 
     .reviews-header {
         text-align: center;
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .reviews-container {
         display: flex;
-        gap: 20px;
+        gap: 1.25rem;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .review-card {
-        border: 1px solid #ddd;
-        border-radius: 8px;
+        border: 0.0625rem solid #ddd;
+        border-radius: 0.5rem;
         background-color: #fff;
-        padding: 20px;
-        width: 400px;
+        padding: 1.25rem;
+        width: 25rem;
         text-align: left;
-        margin: 10px;
+        margin: 0.625rem;
         display: flex;
         flex-direction: column;
     }
 
     .review-rating {
-        padding: 20px 0;
-        font-size: 36px;
+        padding: 1.25rem 0;
+        font-size: 2.25rem;
         text-align: left;
     }
 
     .review-card h3 {
         font-size: 1.5em;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         text-align: left;
     }
 
     .review-card p {
-        margin: 5px 0;
+        margin: 0.3125rem 0;
         text-align: left;
         flex-grow: 1;
     }
@@ -334,9 +346,9 @@ span {
     .review-card button {
         background-color: #007bff;
         color: white;
-        padding: 10px 15px;
+        padding: 0.625rem 0.9375rem;
         border: none;
-        border-radius: 4px;
+        border-radius: 0.25rem;
         cursor: pointer;
         text-align: center;
     }
@@ -348,20 +360,20 @@ span {
     .review-footer {
         display: flex;
         align-items: center;
-        padding-top: 10px;
+        padding-top: 0.625rem;
     }
 
     .person-icon {
         border-radius: 50%;
-        border: 1px solid #1e1e1e;
+        border: 0.0625rem solid #1e1e1e;
         background-color: #474444;
     }
 
     .review-footer>img {
-        font-size: 20px;
-        width: 48px;
-        height: 48px;
-        margin-right: 10px;
+        font-size: 1.25rem;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 0.625rem;
     }
 
     .reviewer-info {
@@ -384,13 +396,61 @@ span {
 
     /*--------------------------------end of review section--------------------------------*/
 
+    #hidden-container p {
+        text-transform: uppercase;
+        letter-spacing: 1.1em;
+        line-height: 1.2;
+        text-indent: 1.2rem;
+        word-spacing: 1.2px;
+    }
+
+    #hidden-container p::first-letter {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    #hidden-container figure img {
+        float: left;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #CFF;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #FFF;
+    }
+
+    #hidden-container>input[type="checkbox"] {
+        display: none;
+    }
+
+    #hidden-container>label {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #1e1e1e;
+        color: white;
+        padding: 15px 25px;
+        border: 1px solid #d98c0f;
+        border-radius: 5px;
+        z-index: 9999;
+        cursor: pointer;
+    }
+
+    #hiden-container>input[type="checkbox"]:checked+label {
+        opacity: 0;
+        pointer-events: none;
+    }
+
     /*--------------------------------star of footer section--------------------------------*/
 
     .footer-container {
         display: flex;
         justify-content: center;
         background-color: #1e1e1e;
-        padding: 20px 0;
+        padding: 1.25rem 0;
         text-align: left;
     }
 
@@ -398,8 +458,8 @@ span {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        max-width: 1400px;
-        padding: 0 20px;
+        max-width: 87.5rem;
+        padding: 0 1.25rem;
         background-color: #1e1e1e;
     }
 
@@ -412,26 +472,26 @@ span {
     }
 
     .information-text em {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125rem;
         background-color: #1e1e1e;
         color: white;
         font-weight: bold;
     }
 
     .information-text span {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125rem;
         background-color: #1e1e1e;
         color: white;
     }
 
     .information-text>.copyright {
-        margin-top: 4%;
+        margin-top: 2.5rem;
         color: #d98c0f
     }
 
     .footer-container aside {
         flex-grow: 0;
-        padding: 10px;
+        padding: 0.625rem;
         text-align: center;
     }
 
@@ -440,7 +500,7 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px 0;
+        padding: 1.25rem 0;
     }
 
     .header-content {
@@ -449,26 +509,26 @@ span {
         align-items: center;
         text-align: center;
         width: 80%;
-        padding: 15px 0;
+        padding: 0.9375rem 0;
         background-color: #1e1e1e;
     }
 
     .header-content h1 {
         color: #d98c0f;
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .header-content span {
         width: 60%;
         text-align: left;
         color: #d98c0f;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 1.25rem;
+        line-height: 1.5;
     }
 
     .header-content p {
         color: white;
-        font-size: 20px;
+        font-size: 1.25rem;
         max-width: 40%;
         margin: 0 auto;
 
@@ -486,7 +546,7 @@ span {
         align-items: center;
         text-align: center;
         width: 80%;
-        padding: 15px 0;
+        padding: 0.9375rem 0;
         background-color: #1e1e1e;
     }
 
@@ -494,7 +554,7 @@ span {
         width: 80%;
         text-align: left;
         color: white;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.2;
     }
 
@@ -502,7 +562,7 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px 0;
+        padding: 0.625rem 0;
 
     }
 
@@ -514,21 +574,21 @@ span {
 
     .main-text {
         width: 80%;
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .main-text h3 {
-        padding: 20px 20px 5px 20px;
+        padding: 1.25rem 1.25rem 0.3125rem 1.25rem;
     }
 
     .main-text p {
-        padding: 20px 20px 5px 20px;
-        font-size: 24px;
+        padding: 1.25rem 1.25rem 0.3125rem 1.25rem;
+        font-size: 1.5rem;
     }
 
     .main-text ul {
-        padding: 5px 20px 0px 5%;
-        font-size: 22px;
+        padding: 0.3125rem 1.25rem 0.3125rem 2.5%;
+        font-size: 1.375rem;
     }
 
     .main-content-detail img {
@@ -548,12 +608,11 @@ span {
         flex-direction: row;
         width: 80%;
 
-
     }
 
     .left-part {
         width: 50%;
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
     }
 
@@ -568,12 +627,12 @@ span {
     }
 
     .left-part li {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .right-part {
         width: 50%;
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
     }
 
@@ -588,7 +647,7 @@ span {
     }
 
     .right-part li {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .third-container-detail {
@@ -609,12 +668,12 @@ span {
         justify-content: center;
         align-items: center;
         width: 80%;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .header-third-detail h2 {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     .button-contact {
@@ -622,10 +681,10 @@ span {
         text-align: center;
         color: white;
         width: 20%;
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
         text-decoration: none;
-        border-radius: 4px;
-        font-size: 1em;
+        border-radius: 0.25rem;
+        font-size: 1rem;
         display: inline-block;
     }
 
@@ -642,7 +701,7 @@ span {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 300px;
+        height: 18.75rem;
         position: relative;
         overflow: hidden;
     }
@@ -667,9 +726,9 @@ span {
 
     .contact-container {
         display: flex;
-        margin: 40px;
+        margin: 2.5rem;
         width: 100%;
-        gap: 40px;
+        gap: 2.5rem;
         justify-content: center;
         align-items: center;
         background-color: white;
@@ -680,7 +739,7 @@ span {
         justify-content: center;
         align-items: center;
         width: 40%;
-        height: 700px;
+        height: 43.75rem;
     }
 
     .contact-right {
@@ -689,21 +748,21 @@ span {
         justify-content: center;
         align-items: center;
         width: 40%;
-        height: 700px;
+        height: 43.75rem;
     }
 
     .contact-right address {
         background-color: #1e1e1e;
         color: white;
-        padding: 5% 5%;
+        padding: 2.5% 2.5%;
         width: 50%;
-        margin-bottom: 5%;
+        margin-bottom: 2.5%;
     }
 
     .opening-hours {
         background-color: #1e1e1e;
         color: white;
-        padding: 5% 5%;
+        padding: 2.5% 2.5%;
         width: 50%;
         text-align: left;
     }
@@ -711,7 +770,7 @@ span {
     .opening-hours h2 {
         color: #d98c0f;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     .time-columns {
@@ -727,7 +786,7 @@ span {
 
     .days span,
     .hours span {
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
 
 
@@ -736,49 +795,49 @@ span {
     .contact-content {
         width: 80%;
         background-color: #1e1e1e;
-        padding: 20px 50px;
+        padding: 1.25rem 3.125rem;
     }
 
     .contact-content h1 {
         color: #d98c0f;
         text-align: center;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .contact-content p {
         text-align: center;
         color: white;
-        font-size: 20px;
-        padding-bottom: 20px;
+        font-size: 1.25rem;
+        padding-bottom: 1.25rem;
     }
 
     form {
         display: flex;
         flex-direction: column;
         background-color: white;
-        padding: 25px;
+        padding: 1.5625rem;
     }
 
     form input {
-        border-radius: 10px;
-        padding: 5px;
-        margin: 10px 0;
-        border: 1px solid black;
+        border-radius: 0.625rem;
+        padding: 0.3125rem;
+        margin: 0.625rem 0;
+        border: 0.0625rem solid black;
         background-color: white;
         color: #fff;
     }
 
     form textarea {
-        border-radius: 10px;
-        padding: 5px;
-        margin-bottom: 2%;
-        border: 1px solid black;
+        border-radius: 0.625rem;
+        padding: 0.3125rem;
+        margin-bottom: 1.25rem;
+        border: 0.0625rem solid black;
 
     }
 
     form button {
-        padding: 10px;
-        border-radius: 10px;
+        padding: 0.625rem;
+        border-radius: 0.625rem;
         background-color: #1e1e1e;
         color: #fff;
         border: none;
@@ -788,7 +847,6 @@ span {
     form button:hover {
         background-color: #e68a00;
     }
-
 
     /*--------------------------------end of contact page section--------------------------------*/
 }
@@ -804,6 +862,10 @@ span {
     }
 
     #nav-desktop {
+        display: none;
+    }
+
+    #hidden-container {
         display: none;
     }
 
@@ -853,7 +915,6 @@ span {
         width: 120px;
         height: 100%;
         background-color: #1e1e1e;
-        color: #1e1e1e;
         transform: translateX(300px);
     }
 
@@ -905,27 +966,27 @@ span {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 20px 0;
+        margin: 1.25rem 0;
 
     }
 
     .text-content h1 {
         color: #1e1e1e;
         max-width: 100%;
-        font-size: 40px;
+        font-size: 2.5rem;
         line-height: 1.2;
     }
 
     .text-content p {
         color: #1e1e1e;
         width: 100%;
-        max-width: 600px;
-        font-size: 20px;
+        max-width: 37.5rem;
+        font-size: 1.25rem;
         line-height: 1.5;
     }
 
     .image-content {
-        margin: 20px 0;
+        margin: 1.25rem 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -935,8 +996,8 @@ span {
         width: 80%;
         height: auto;
         object-fit: cover;
-        max-width: 1000px;
-        max-height: 500px;
+        max-width: 50rem;
+        max-height: 25rem;
     }
 
 
@@ -949,15 +1010,15 @@ span {
 
     .cardlinks-header {
         text-align: center;
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .cardlinks-container {
         display: flex;
-        gap: 20px;
+        gap: 1.25rem;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .cardlinks-container>.cardlinks-header {
@@ -965,13 +1026,13 @@ span {
     }
 
     .card {
-        border: 3px double black;
-        border-radius: 8px;
+        border: 0.1875rem double black;
+        border-radius: 0.5rem;
         overflow: hidden;
-        width: 400px;
-        height: 400px;
+        width: 20rem;
+        height: 20rem;
         background-color: #1e1e1e;
-        margin: 20px;
+        margin: 1.25rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -980,19 +1041,19 @@ span {
     .card-header {
 
         background-color: #1e1e1e;
-        padding: 10px;
+        padding: 0.625rem;
         text-align: center;
-        border-top: 1px solid #1e1e1e;
+        border-top: 0.0625rem solid #1e1e1e;
     }
 
     .card-header h2 {
-        font-size: 1.5em;
+        font-size: 1.5rem;
         color: #d98c0f;
     }
 
     .card-image {
         text-align: center;
-        padding: 15px 0;
+        padding: 0.9375rem 0;
     }
 
     .card-image img {
@@ -1002,26 +1063,26 @@ span {
 
     .card-image figcaption {
         text-align: center;
-        padding: 8px;
+        padding: 0.5rem;
         font-size: 0.85em;
         color: #666;
     }
 
     .card-body {
-        padding: 15px;
-        font-size: 1em;
+        padding: 0.9375rem;
+        font-size: 1rem;
         color: white;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.5;
         text-align: center;
         margin-bottom: auto;
     }
 
     .card-footer {
-        padding: 10px;
+        padding: 0.625rem;
         text-align: center;
         background-color: #1e1e1e;
-        border-top: 1px solid #1e1e1e;
+        border-top: 0.0625rem solid #1e1e1e;
         margin-top: auto;
         display: flex;
         justify-content: center;
@@ -1031,10 +1092,10 @@ span {
         background-color: #d98c0f;
         color: white;
         width: 65%;
-        padding: 10px 20px;
+        padding: 0.625rem 1.25rem;
         text-decoration: none;
-        border-radius: 4px;
-        font-size: 1em;
+        border-radius: 0.25rem;
+        font-size: 1rem;
         display: inline-block;
     }
 
@@ -1049,43 +1110,43 @@ span {
 
     .reviews-header {
         text-align: center;
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .reviews-container {
         display: flex;
-        gap: 20px;
+        gap: 1.25rem;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .review-card {
         border: 1px solid #ddd;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         background-color: #fff;
-        padding: 20px;
-        width: 400px;
+        padding: 1.25rem;
+        width: 25rem;
         text-align: left;
-        margin: 10px;
+        margin: 0.625rem;
         display: flex;
         flex-direction: column;
     }
 
     .review-rating {
-        padding: 20px 0;
-        font-size: 36px;
+        padding: 1.25rem 0;
+        font-size: 2.25rem;
         text-align: left;
     }
 
     .review-card h3 {
         font-size: 1.5em;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
         text-align: left;
     }
 
     .review-card p {
-        margin: 5px 0;
+        margin: 0.3125rem 0;
         text-align: left;
         flex-grow: 1;
     }
@@ -1093,9 +1154,9 @@ span {
     .review-card button {
         background-color: #007bff;
         color: white;
-        padding: 10px 15px;
+        padding: 0.625rem 0.9375rem;
         border: none;
-        border-radius: 4px;
+        border-radius: 0.25rem;
         cursor: pointer;
         text-align: center;
     }
@@ -1107,21 +1168,21 @@ span {
     .review-footer {
         display: flex;
         align-items: center;
-        padding-top: 10px;
+        padding-top: 0.625rem;
     }
 
     .person-icon {
         border-radius: 50%;
         border: 1px solid #1e1e1e;
-        padding: 10px;
+        padding: 0.625rem;
         background-color: #474444;
     }
 
     .review-footer>img {
-        font-size: 20px;
-        width: 48px;
-        height: 48px;
-        margin-right: 10px;
+        font-size: 1.25rem;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 0.625rem;
     }
 
     .reviewer-info {
@@ -1150,7 +1211,7 @@ span {
         display: flex;
         justify-content: center;
         background-color: #1e1e1e;
-        padding: 20px 0;
+        padding: 1.25rem 0;
         text-align: left;
     }
 
@@ -1158,8 +1219,8 @@ span {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        max-width: 1400px;
-        padding: 0 20px;
+        max-width: 87.5rem;
+        padding: 0 1.25rem;
         background-color: #1e1e1e;
     }
 
@@ -1172,20 +1233,20 @@ span {
     }
 
     .information-text em {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125rem;
         background-color: #1e1e1e;
         color: white;
         font-weight: bold;
     }
 
     .information-text span {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125rem;
         background-color: #1e1e1e;
         color: white;
     }
 
     .information-text>.copyright {
-        margin-top: 4%;
+        margin-top: 2.5rem;
         color: #d98c0f
     }
 
@@ -1198,7 +1259,7 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 20px 0 5px;
+        padding: 1.25rem 0 0.625rem;
     }
 
     .header-content {
@@ -1207,27 +1268,27 @@ span {
         align-items: center;
         text-align: center;
         width: 100%;
-        padding: 15px 0;
+        padding: 1.25rem 0;
         background-color: #1e1e1e;
     }
 
     .header-content h1 {
         color: #d98c0f;
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .header-content span {
         width: 90%;
         text-align: left;
         color: #d98c0f;
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 1.25rem;
+        line-height: 1.5;
     }
 
     .header-content p {
         color: white;
         text-align: left;
-        font-size: 20px;
+        font-size: 1.25rem;
         max-width: 90%;
         margin: 0 auto;
 
@@ -1245,7 +1306,7 @@ span {
         align-items: center;
         text-align: center;
         width: 100%;
-        padding: 15px 0;
+        padding: 1.25rem 0;
         background-color: #1e1e1e;
     }
 
@@ -1253,7 +1314,7 @@ span {
         width: 90%;
         text-align: left;
         color: white;
-        font-size: 20px;
+        font-size: 1.25rem;
         line-height: 1.2;
     }
 
@@ -1261,7 +1322,7 @@ span {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px 0;
+        padding: 1.25rem 0;
 
     }
 
@@ -1275,16 +1336,16 @@ span {
 
     .main-text {
         width: 90%;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .main-text h3 {
-        padding-bottom: 2%;
+        padding-bottom: 1.25rem;
     }
 
     .main-text p {
-        margin-bottom: 20px;
-        font-size: 20px;
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
     }
 
 
@@ -1309,7 +1370,7 @@ span {
 
     .left-part {
         width: 90%;
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
     }
 
@@ -1324,12 +1385,12 @@ span {
     }
 
     .left-part li {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .right-part {
         width: 90%;
-        padding: 20px;
+        padding: 1.25rem;
         text-align: left;
     }
 
@@ -1344,7 +1405,7 @@ span {
     }
 
     .right-part li {
-        padding: 10px;
+        padding: 0.625rem;
 
     }
 
@@ -1352,14 +1413,14 @@ span {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .third-content-detail {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .header-third-detail {
@@ -1371,7 +1432,7 @@ span {
 
     .header-third-detail h2 {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     .button-contact {
@@ -1379,9 +1440,9 @@ span {
         text-align: center;
         color: white;
         width: 60%;
-        padding: 10px 20px;
+        padding: 1.25rem 2.5rem;
         text-decoration: none;
-        border-radius: 4px;
+        border-radius: 0.3125rem;
         font-size: 1em;
         display: inline-block;
     }
@@ -1398,7 +1459,7 @@ span {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 200px;
+        height: 12.5rem;
         position: relative;
         overflow: hidden;
     }
@@ -1416,7 +1477,7 @@ span {
 
     .contact-text {
         color: #d98c0f;
-        font-size: 3em;
+        font-size: 3rem;
         font-weight: bold;
         z-index: 1;
     }
@@ -1439,7 +1500,7 @@ span {
     }
 
     .contact-right {
-        margin: 2% 0 5%;
+        margin: 2rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1451,22 +1512,22 @@ span {
         text-align: left;
         background-color: #d98c0f;
         color: #1e1e1e;
-        padding: 10% 5%;
+        padding: 2.5rem 1.25rem;
         width: 100%;
-        margin-bottom: 5%;
+        margin-bottom: 2rem;
     }
 
     .opening-hours {
         background-color: #1e1e1e;
         color: white;
-        padding: 8% 5%;
+        padding: 2.5rem 1.25rem;
         width: 100%;
         text-align: left;
     }
 
     .opening-hours h2 {
         color: #d98c0f;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 
     .time-columns {
@@ -1482,60 +1543,61 @@ span {
 
     .days span,
     .hours span {
-        margin-bottom: 10px;
+        margin-bottom: 1.25rem;
     }
 
 
 
 
     .contact-content {
-        width: 80%;
+        width: 100%;
         background-color: #1e1e1e;
-        padding: 20px 50px;
+        padding: 2.5rem 3.75rem;
     }
 
     .contact-content h1 {
         color: #d98c0f;
         text-align: center;
-        font-size: 30px;
+        font-size: 3rem;
     }
 
     .contact-content p {
         text-align: center;
         color: white;
-        font-size: 20px;
+        font-size: 2rem;
     }
 
     form {
         display: flex;
         flex-direction: column;
-        padding: 25px;
+        padding: 3.125rem;
     }
 
-    form label {
+    form label,
+    form legend {
         color: white;
     }
 
     form input {
-        border-radius: 10px;
-        padding: 5px;
-        margin: 10px 0;
-        border: 1px solid black;
+        border-radius: 0.625rem;
+        padding: 0.625rem;
+        margin: 1.25rem 0;
+        border: 0.125rem solid black;
         background-color: white;
         color: #fff;
     }
 
     form textarea {
-        border-radius: 10px;
-        padding: 5px;
-        margin-bottom: 2%;
-        border: 1px solid black;
+        border-radius: 0.625rem;
+        padding: 0.625rem;
+        margin-bottom: 2.5rem;
+        border: 0.125rem solid black;
 
     }
 
     form button {
-        padding: 10px;
-        border-radius: 10px;
+        padding: 1.25rem;
+        border-radius: 0.625rem;
         background-color: #d98c0f;
         color: #fff;
         border: none;
