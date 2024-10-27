@@ -1,0 +1,5 @@
+Student name: Jayden Meulemans
+Student number: 728813
+Student class: INF1B 
+GitHub Repository: https://github.com/Jxyden17/Jxyden17.github.io 
+GitHub Pages URL: Jxyden17.github.io

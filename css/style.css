@@ -421,11 +421,11 @@ span {
         background-color: #FFF;
     }
 
-    #hidden-container>input[type="checkbox"] {
+    #cookies-container>input[type="checkbox"] {
         display: none;
     }
 
-    #hidden-container>label {
+    #cookies-container>label {
         position: fixed;
         bottom: 20px;
         left: 50%;
@@ -439,7 +439,7 @@ span {
         cursor: pointer;
     }
 
-    #hiden-container>input[type="checkbox"]:checked+label {
+    #cookies-container>input[type="checkbox"]:checked+label {
         opacity: 0;
         pointer-events: none;
     }
